@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", () => {
   const productData = [
-    { id: 1, name: "Tie-Dye Lounge Set", price: 150.0, image: "../marmetotask/assets/product1.jpg" },
-    { id: 2, name: "Sunburst Tracksuit", price: 150.0, image: "../marmetotask/assets/product2.jpg" },
-    { id: 3, name: "Retro Red Streetwear", price: 150.0, image: "../marmetotask/assets/product3.jpg" },
-    { id: 4, name: "Urban Sportwear Combo", price: 150.0, image: "../marmetotask/assets/product4.jpg" },
-    { id: 5, name: "Oversized Knit & Coat", price: 150.0, image: "../marmetotask/assets/product5.jpg" },
-    { id: 6, name: "Chic Monochrome Blazer", price: 150.0, image: "../marmetotask/assets/product6.jpg" },
+    { id: 1, name: "Tie-Dye Lounge Set", price: 150.0, image: "../assets/product1.jpg" },
+    { id: 2, name: "Sunburst Tracksuit", price: 150.0, image: "../assets/product2.jpg" },
+    { id: 3, name: "Retro Red Streetwear", price: 150.0, image: "../assets/product3.jpg" },
+    { id: 4, name: "Urban Sportwear Combo", price: 150.0, image: "../assets/product4.jpg" },
+    { id: 5, name: "Oversized Knit & Coat", price: 150.0, image: "../assets/product5.jpg" },
+    { id: 6, name: "Chic Monochrome Blazer", price: 150.0, image: "../assets/product6.jpg" },
   ];
   const productGrid=document.querySelector(".product-grid");
   const bundleItemsContainer=document.querySelector(".bundle-items");
